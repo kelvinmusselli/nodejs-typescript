@@ -1,10 +1,10 @@
 import { Category } from '../model/Category';
 import {
-  ICategoryRepository,
+  ICategoriesRepository,
   ICreatCategoryDTO,
 } from './ICategoriesRepository';
 
-class PostgressCategoriesRepository implements ICategoryRepository {
+class PostgressCategoriesRepository implements ICategoriesRepository {
   findByName(name: string): Category {
     return null;
   }
